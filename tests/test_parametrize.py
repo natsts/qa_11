@@ -1,6 +1,6 @@
 import pytest
 from selene.support.shared import browser
-from model.page_github import sign_in_github_desktop, assert_main_page_github, sign_in_github_mobile
+from page.page_github import sign_in_github_desktop, assert_main_page_github, sign_in_github_mobile
 
 
 @pytest.mark.parametrize("browser_size", ["desktop"], indirect=True)
